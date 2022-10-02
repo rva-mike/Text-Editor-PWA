@@ -26,7 +26,22 @@ module.exports = () => {
 
     module: {
       rules: [
-
+        {
+          test: /\.css$/i,
+          use: ["style-loader", "css-loader"]
+        },
+        {
+          test: /\.m?js$/,
+          exclude: /node_modules/,
+          // Add babel-loader to webpack in order to use ES6
+          use: {
+            loader: "babel-loader",
+            options: {
+              presets: ["@babel/preset-env"],
+              plugins: ["@babel/plugin-proposal-object-rest-spread", "@babel/transform-runtime"]
+            }
+          }
+        }
       ],
     },
   };
