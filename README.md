@@ -44,7 +44,8 @@ This application works without an internet connection.
   
   ## Link 
   
-  Link to deployed application:
+  Link to deployed application: https://justanothertexteditor-xyz.herokuapp.com/
+
   
   ## Screenshot
   
