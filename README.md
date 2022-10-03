@@ -48,7 +48,8 @@ This application works without an internet connection.
   
   ## Screenshot
   
-
+  
+![Screenshot 2022-10-03 122714](https://user-images.githubusercontent.com/105617274/193630498-24e9bf31-52d2-43e5-b167-3e58cd235760.png)
 
 
   ## License
